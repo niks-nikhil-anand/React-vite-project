@@ -32,7 +32,7 @@ function App() {
             <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
           </label>
           <label>
-            Message:
+            Message for the team:
             <textarea value={message} onChange={(e) => setMessage(e.target.value)} required />
           </label>
           <button type="submit">Submit</button>
